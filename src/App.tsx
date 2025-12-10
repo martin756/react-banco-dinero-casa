@@ -6,7 +6,7 @@ import ViviendaPage from "./pages/ViviendaPage";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-banco-dinero-casa">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/plazofijo" element={<PlazoFijoPage />} />
